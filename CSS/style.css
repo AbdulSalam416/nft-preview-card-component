@@ -1,0 +1,117 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* ----------------------Styling the container --------------------------*/
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    flex-grow: 3;
+    margin: 20% 40% 5%;
+    height: 33rem;
+    width: 18rem;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.img-container {
+    flex: 2 1 auto;
+}
+
+span {
+    color: #fff;
+    cursor: pointer;
+}
+
+.img-container img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 1 1 auto;
+}
+
+#equillibrium {
+    color: #fff;
+    cursor: pointer;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+#eth {
+    display: inline;
+    color: cyan;
+}
+
+#days {
+    display: inline;
+    position: relative;
+    margin-left: 33%;
+}
+
+.text-container hr {
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.creater-container {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.creater-container img {
+    width: 2rem;
+    max-height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.creater-container p {
+    padding-left: 15px;
+}
+
+#equillibrium:hover,
+span:hover {
+    color: cyan;
+}
+
+
+/* Attrubution */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+    font-weight: 900;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        margin: 10%;
+    }
+}
